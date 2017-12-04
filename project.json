@@ -1,0 +1,22 @@
+{
+  "name": "PlatiRes",
+  "description": "Building a platinum resistant map of CCLE sample",
+  "git_url": "https://github.com/danielanach/platires",
+  "version": "0.0.1",
+  "keywords": [
+    "cancer",
+    "Platinum-based drugs",
+    "CCAL",
+    "Onco-GPS"
+  ],
+  "downloads": {},
+  "commands": {
+    "notebook": "jupyter notebook"
+  },
+  "environment_history": [
+    "conda install --prefix PROJECT_ENVIRONMENT_DIRECTORY_PATH --channel conda-forge --yes --quiet jupyter yapf click pandas hdf5 pytables scikit-learn scipy statsmodels matplotlib seaborn plotly pycrypto bcrypt biopython rpy2 r-mass",
+    "conda install --prefix PROJECT_ENVIRONMENT_DIRECTORY_PATH --channel bioconda --yes --quiet pyfaidx",
+    "pip install --quiet pytabix",
+    "pip install --quiet gseapy"
+  ]
+}
